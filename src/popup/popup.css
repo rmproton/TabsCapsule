@@ -1,0 +1,336 @@
+@import '../style/themes.css';
+
+body {
+  width: 350px!important;
+  height: 500px!important;   
+}
+
+#app {
+  height: 500px!important;   
+    position: relative;
+}
+
+
+.popup {
+    position: relative;
+  display: flex;
+  height: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+ 
+
+ .above-overlay {
+  display: flex;
+  width: 100%;
+  padding-bottom: 0.2rem;
+  overflow-y: hidden!important;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  justify-content: space-between;
+ }
+
+.banner {
+    text-align: left;
+ 
+  color: var(--accent-color);
+}
+
+.sub-banner {
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 300!important;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.count-container {
+  text-align: center;
+  margin-bottom: 2rem; /* Increased margin to move counter above the bubble */
+}
+
+.count-text {
+   
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.ellipsis {
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+.ellipsis-container {
+  position: absolute;
+  top: 1.2rem;
+  right: 10px;
+}
+
+.count-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.count-controls {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+   
+   padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--count-controls-bg);
+}
+
+.count-controls button {
+  margin: 5px 0;
+  background: none;
+  border: 1px solid var(--options-border);
+  cursor: pointer;
+  line-break: loose;
+  border-radius: 8px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  padding: 5px 10px;
+}
+
+.reset-button {
+  background-color: var(--button-bg) !important;
+  color: var(--button-text) !important;
+  white-space: nowrap;
+}
+
+.set-streak-button {
+  background-color: var(--button-bg) !important;
+  color: var(--button-text) !important;
+  white-space: nowrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+   justify-content: flex-start; /* Center content vertically */
+}
+
+.quote-container {
+  position: relative;
+}
+
+.quote-bubble {
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: relative;
+  background-color: var(--quote-bubble-bg);
+}
+
+.quote-bubble p {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: var(--quote-bubble-bg) transparent transparent transparent;
+}
+
+.quote-text {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+ 
+}
+
+.quote-marks {
+  font-size: 2.2rem;
+  line-height: 0;
+  vertical-align: -0.4em;
+}
+
+.quote-author {
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+.support-icon {
+  position: absolute;
+  bottom: 20px; /* Increased bottom margin */
+  right: 20px; /* Increased right margin */
+  cursor: pointer;
+}
+
+.support-icon svg {
+  transition: color 0.3s ease;
+}
+
+.support-icon:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.theme-switcher {
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  cursor: pointer;
+}
+
+.theme-switcher svg {
+  transition: color 0.3s ease;
+}
+
+.border-line {
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  background-color: var(--options-border);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: var(--modal-bg);
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 240px; /* Set width to match popup */
+  height: auto; /* Set height to match popup */
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  background: none;
+  border: 1px solid var(--options-border);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  padding: 5px 10px;
+}
+
+.streak-input {
+  width: 8rem;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.streak-input::-webkit-outer-spin-button,
+.streak-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.streak-input:hover {
+  background-color: var(--count-controls-hover);
+}
+
+.close-button {
+  background-color: var(--button-bg) !important;
+  color: var(--button-text) !important;
+}
+
+.accept-button {
+  background-color: var(--button-bg) !important;
+  color: var(--button-text) !important;
+}
+
+.addiction-tag {
+    position: relative;
+    font-size: 1em;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   
+  .count-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+  
+  .addiction-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+  }

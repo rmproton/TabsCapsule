@@ -1,0 +1,184 @@
+{
+  "addiction_support_guides": [
+    {
+      "type": "Drug Addiction",
+      "resources": [
+        {
+          "name": "Narcotics Anonymous",
+          "url": "https://www.na.org/",
+          "description": "A global, community-based organization offering recovery from drug addiction."
+        },
+        {
+          "name": "SAMHSA's National Helpline",
+          "url": "https://www.samhsa.gov/find-help/national-helpline",
+          "description": "Free, confidential, 24/7 treatment referral and information service for individuals and families facing substance use disorders."
+        },
+        {
+          "name": "DrugAbuse.gov",
+          "url": "https://www.drugabuse.gov/",
+          "description": "Comprehensive resource for understanding drug abuse, addiction, and treatment options."
+        },
+        {
+          "name": "AddictionCenter",
+          "url": "https://www.addictioncenter.com/drugs/",
+          "description": "Informational resource on various drugs, their effects, and treatment options."
+        }
+      ]
+    },
+    {
+      "type": "Sex Addiction",
+      "resources": [
+        {
+          "name": "Sex Addicts Anonymous",
+          "url": "https://saa-recovery.org/",
+          "description": "A fellowship of men and women who share their experience, strength, and hope to recover from addictive sexual behavior."
+        },
+        {
+          "name": "IITAP - Sex Addiction Treatment Provider Directory",
+          "url": "https://iitap.com/search/custom.asp?id=5357",
+          "description": "Find certified sex addiction therapists and treatment centers."
+        },
+        {
+          "name": "SexHelp.com",
+          "url": "https://www.sexhelp.com/",
+          "description": "Resource for sex addiction information, self-tests, and treatment options."
+        },
+        {
+          "name": "SASH - Society for the Advancement of Sexual Health",
+          "url": "https://www.sash.net/",
+          "description": "Non-profit organization dedicated to promoting sexual health and addressing problematic sexual behaviors."
+        }
+      ]
+    },
+    {
+      "type": "Porn Addiction",
+      "resources": [
+        {
+          "name": "NoFap",
+          "url": "https://nofap.com/",
+          "description": "A comprehensive community-based porn recovery website."
+        },
+        {
+          "name": "Fight The New Drug",
+          "url": "https://fightthenewdrug.org/",
+          "description": "An organization raising awareness on the harmful effects of pornography and providing recovery resources."
+        },
+        {
+          "name": "Your Brain On Porn",
+          "url": "https://www.yourbrainonporn.com/",
+          "description": "Extensive information on the effects of pornography on the brain and recovery methods."
+        },
+        {
+          "name": "Porn Addiction Help",
+          "url": "https://www.pornaddictionhelp.com/",
+          "description": "Resources and information for understanding and overcoming porn addiction."
+        }
+      ]
+    },
+    {
+      "type": "Gambling Addiction",
+      "resources": [
+        {
+          "name": "Gamblers Anonymous",
+          "url": "https://www.gamblersanonymous.org/",
+          "description": "A fellowship of men and women who share their experience, strength and hope to solve their common problem of compulsive gambling."
+        },
+        {
+          "name": "National Problem Gambling Helpline",
+          "url": "https://www.ncpgambling.org/help-treatment/national-helpline-1-800-522-4700/",
+          "description": "24/7 confidential helpline for problem gamblers and their loved ones."
+        },
+        {
+          "name": "GamCare",
+          "url": "https://www.gamcare.org.uk/",
+          "description": "UK-based charity providing information, advice and support for anyone affected by gambling problems."
+        },
+        {
+          "name": "Gambling Therapy",
+          "url": "https://www.gamblingtherapy.org/",
+          "description": "Global online support service offering help to anyone affected by gambling problems."
+        }
+      ]
+    },
+    {
+      "type": "Alcohol Addiction",
+      "resources": [
+        {
+          "name": "Alcoholics Anonymous",
+          "url": "https://www.aa.org/",
+          "description": "An international fellowship of people who have had a drinking problem."
+        },
+        {
+          "name": "NIAAA Alcohol Treatment Navigator",
+          "url": "https://alcoholtreatment.niaaa.nih.gov/",
+          "description": "A comprehensive resource to help find alcohol treatment options."
+        },
+        {
+          "name": "Alcohol.org",
+          "url": "https://www.alcohol.org/",
+          "description": "Information on alcohol abuse, addiction, and treatment options."
+        },
+        {
+          "name": "Rethinking Drinking",
+          "url": "https://www.rethinkingdrinking.niaaa.nih.gov/",
+          "description": "Tools to help you check your drinking patterns and decide if you need to make a change."
+        }
+      ]
+    },
+    {
+      "type": "General Addiction Support",
+      "resources": [
+        {
+          "name": "SMART Recovery",
+          "url": "https://www.smartrecovery.org/",
+          "description": "A global community of people and families working together to resolve addictive problems."
+        },
+        {
+          "name": "Addiction Center",
+          "url": "https://www.addictioncenter.com/",
+          "description": "Provides information on addiction, treatment options, and recovery resources for various types of addictions."
+        },
+        {
+          "name": "Psychology Today - Addiction Treatment Centers",
+          "url": "https://www.psychologytoday.com/us/treatment-rehab",
+          "description": "Directory of addiction treatment centers and therapists specializing in addiction."
+        },
+        {
+          "name": "Addiction Resource",
+          "url": "https://addictionresource.com/",
+          "description": "Comprehensive information on various addictions, treatment options, and recovery resources."
+        }
+      ]
+    },
+    {
+      "type": "Gaming Addiction",
+      "resources": [
+        {
+          "name": "Game Quitters",
+          "url": "https://gamequitters.com/",
+          "description": "A support community and resource hub for those struggling with video game addiction."
+        },
+        {
+          "name": "CGAA - Computer Gaming Addicts Anonymous",
+          "url": "https://cgaa.info/",
+          "description": "A 12-step fellowship for people seeking recovery from compulsive gaming."
+        },
+        {
+          "name": "On-Line Gamers Anonymous",
+          "url": "https://www.olganon.org/",
+          "description": "A self-help organization for gamers and their loved ones who are struggling with addiction."
+        },
+        {
+          "name": "Center for Internet and Technology Addiction",
+          "url": "https://virtual-addiction.com/",
+          "description": "Offers resources and treatment options for various technology-related addictions, including gaming."
+        },
+        {
+          "name": "Healthy Gamer",
+          "url": "https://www.healthygamer.gg/",
+          "description": "Provides mental health resources and coaching specifically tailored for gamers."
+        }
+      ]
+    }
+  ]
+}

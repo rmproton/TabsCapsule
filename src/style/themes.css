@@ -1,0 +1,652 @@
+/* Dark Theme (Default) */
+.dark-theme {
+    --bg-color: #1B2240;
+    --text-color: #959DAA;
+    --accent-color: #ad9bf6;
+    --accent-light: #efeff1;
+    --accent-dark: #2f1d76;
+    --quote-bubble-bg: #292f4d;
+    --count-controls-bg: #313852;
+    --count-controls-hover: #383f56;
+    --options-bg: #292f4d;
+    --options-border: #313852;
+    --options-hover: #383f56;
+    --tab-bg: #313852;
+    --tab-text: #959DAA;
+    --tab-active-bg: #ad9bf6;
+    --tab-active-text: #FFFFFF;
+    --privacy-policy-bg: #060F2F;
+    --privacy-policy-heading: #ad9bf6;
+    --starting-bg: #1B2240;
+    --starting-text: #959DAA;
+    --starting-button-bg: #ad9bf6;
+    --starting-button-text: #FFFFFF;
+    --starting-button-hover: #efeff1;
+    --grey-section-bg: #313852;
+    --accordion-header-bg: #31385270;
+    --accordion-content-bg: #292f4d;
+    --tooltip-bg: #ad9bf6;
+    --tooltip-text: #FFFFFF;
+    --modal-bg: #292f4d;
+    --modal-text: #959DAA;
+    --input-bg: #313852;
+    --input-text: #959DAA;
+    --button-bg: #ad9bf6;
+    --button-text: #FFFFFF;
+    --button-hover: #efeff1;
+    --active-item-bg: #303c6a;
+}
+
+/* Light Theme */
+.light-theme {
+    --bg-color: #FFFFFF;
+    --text-color: #333333;
+    --accent-color: #ff6b6b;
+    --accent-light: #ffa5a5;
+    --accent-dark: #e64545;
+    --quote-bubble-bg: #f0f0f0;
+    --count-controls-bg: #e0e0e0;
+    --count-controls-hover: #d0d0d0;
+    --options-bg: #f0f0f0;
+    --options-border: #e0e0e0;
+    --options-hover: #d0d0d0;
+    --tab-bg: #f5f5f5;
+    --tab-text: #333333;
+    --tab-active-bg: #ff6b6b;
+    --tab-active-text: #ffffff;
+    --privacy-policy-bg: #f0f0f0;
+    --privacy-policy-heading: #ff6b6b;
+    --starting-bg: #ffffff;
+    --starting-text: #333333;
+    --starting-button-bg: #ff6b6b;
+    --starting-button-text: #ffffff;
+    --starting-button-hover: #ffa5a5;
+    --grey-section-bg: #e0e0e0;
+    --accordion-header-bg: #e0e0e080;
+    --accordion-content-bg: #f0f0f0;
+    --tooltip-bg: #ff6b6b;
+    --tooltip-text: #ffffff;
+    --modal-bg: #f0f0f0;
+    --modal-text: #333333;
+    --input-bg: #e0e0e0;
+    --input-text: #333333;
+    --button-bg: #ff6b6b;
+    --button-text: #ffffff;
+    --button-hover: #ffa5a5;
+    --active-item-bg: #e0e0e0;
+}
+
+/* Ocean Theme */
+.ocean-theme {
+    --bg-color: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    --text-color: #1565c0;
+    --accent-color: #0288d1;
+    --accent-light: #4fc3f7;
+    --accent-dark: #01579b;
+    --quote-bubble-bg: #bbdefb;
+    --count-controls-bg: #bbdefb;
+    --count-controls-hover: #90caf9;
+    --options-bg: #bbdefb;
+    --options-border: #90caf9;
+    --options-hover: #90caf9;
+    --tab-bg: #bbdefb;
+    --tab-text: #1565c0;
+    --tab-active-bg: #0288d1;
+    --tab-active-text: #e3f2fd;
+    --privacy-policy-bg: #bbdefb;
+    --privacy-policy-heading: #0288d1;
+    --starting-bg: #e3f2fd;
+    --starting-text: #1565c0;
+    --starting-button-bg: #0288d1;
+    --starting-button-text: #e3f2fd;
+    --starting-button-hover: #4fc3f7;
+    --grey-section-bg: #bbdefb;
+    --accordion-header-bg: #bbdefb;
+    --accordion-content-bg: #e3f2fd;
+    --tooltip-bg: #0288d1;
+    --tooltip-text: #e3f2fd;
+    --modal-bg: #bbdefb;
+    --modal-text: #1565c0;
+    --input-bg: #bbdefb;
+    --input-text: #1565c0;
+    --button-bg: #0288d1;
+    --button-text: #e3f2fd;
+    --button-hover: #4fc3f7;
+    --active-item-bg: #bbdefb;
+}
+
+/* Forest Theme */
+.forest-theme {
+    --bg-color: linear-gradient(135deg, #2f3e46 0%, #354f52 100%);
+    --text-color: #cad2c5;
+    --accent-color: #52796f;
+    --accent-light: #84a98c;
+    --accent-dark: #354f52;
+    --quote-bubble-bg: #354f52;
+    --count-controls-bg: #354f52;
+    --count-controls-hover: #52796f;
+    --options-bg: #354f52;
+    --options-border: #52796f;
+    --options-hover: #52796f;
+    --tab-bg: #354f52;
+    --tab-text: #cad2c5;
+    --tab-active-bg: #52796f;
+    --tab-active-text: #cad2c5;
+    --privacy-policy-bg: #2f3e46;
+    --privacy-policy-heading: #52796f;
+    --starting-bg: #2f3e46;
+    --starting-text: #cad2c5;
+    --starting-button-bg: #52796f;
+    --starting-button-text: #cad2c5;
+    --starting-button-hover: #84a98c;
+    --grey-section-bg: #354f52;
+    --accordion-header-bg: #354f52;
+    --accordion-content-bg: #2f3e46;
+    --tooltip-bg: #52796f;
+    --tooltip-text: #cad2c5;
+    --modal-bg: #354f52;
+    --modal-text: #cad2c5;
+    --input-bg: #354f52;
+    --input-text: #cad2c5;
+    --button-bg: #52796f;
+    --button-text: #cad2c5;
+    --button-hover: #84a98c;
+    --active-item-bg: #354f52;
+}
+
+/* Apply theme variables */
+.popup {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.banner {
+    color: var(--accent-color);
+}
+ 
+.tabs .tab {
+    background-color: var(--tab-bg);
+    color: var(--tab-text);
+}
+
+.tabs .tab.active {
+    background-color: var(--tab-active-bg);
+    color: var(--tab-active-text);
+}
+
+.accordion-header {
+    background-color: var(--accordion-header-bg);
+}
+
+.accordion-content {
+    background-color: var(--accordion-content-bg);
+}
+
+.tooltip {
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
+}
+
+.modal {
+    background-color: var(--modal-bg);
+    color: var(--modal-text);
+}
+
+.modal-input {
+    background-color: var(--input-bg);
+    color: var(--input-text);
+}
+
+.radix-ui-button, .flat-btn, .play-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+}
+
+.radix-ui-button:hover, .flat-btn:hover, .play-btn:hover {
+    background-color: var(--button-hover);
+}
+
+.tab-item {
+    color: var(--text-color);
+    border-bottom: solid 1px #f0f0f01a;
+}
+
+.tab-item.active {
+    background-color: var(--active-item-bg);
+}
+
+
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  .above-overlay {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+
+  .save-tabs-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
+  .radix-ui-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--button-text);
+    width: fit-content;
+    background-color: var(--button-bg);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  ul {
+    margin: 0;
+  }
+  ul li {
+    padding: 0 1rem 0 1rem;
+    border-bottom: 1px solid var(--options-border);
+    cursor: pointer;
+  }
+
+  .subtab-container {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+
+  .subtab-container:hover {
+    transform: scale(1.05);
+  }
+
+
+ul li:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+  ul li.active {
+    background-color: var(--active-item-bg);
+  }
+
+  
+
+  ul li:last-child {
+    border-bottom: none;
+  }
+
+  .content {
+    font-family: 'DM Sans', sans-serif;
+    overflow-y: auto;
+    max-height: 370px;
+    padding-bottom: 4rem;
+    overflow-x: hidden;
+  }
+
+  .content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .content::-webkit-scrollbar-track {
+    background: var(--grey-section-bg);
+  }
+
+  .content::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 3px;
+  }
+
+  .content::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-dark);
+  }
+
+  .radix-ui-button:hover {
+    background-color: var(--button-hover);
+  }
+
+  .banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px var(--options-border);
+    }
+
+  .empty-component {
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: var(--grey-section-bg);
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+    background-color: var(--modal-bg);
+    color: var(--modal-text);
+    margin: 15% auto;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid var(--options-border);
+    width: 80%;
+  }
+
+  .modal-content input {
+    width: 8rem;
+    background-color: var(--input-bg);
+    color: var(--input-text);
+  }
+
+  .flat-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 50%;
+    color: var(--text-color);
+  }
+
+  .flat-btn:focus,
+  .flat-btn:hover {
+    transform: translateY(2px);
+    background-color: var(--options-hover);
+  }
+
+  .banner {
+    font-family: "SUSE", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: -2px;
+    color: var(--accent-color);
+  }
+
+  .tooltip-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--tooltip-bg) transparent transparent transparent;
+  }
+
+  .tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    gap: 0.2rem;
+  }
+
+  .accordion {
+     border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+ 
+  .accordion-header {
+    background-color: var(--tab-bg)!important;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    position: sticky;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-header:hover {
+    transform: scale(1.02);
+  }
+
+  .accordion-content {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--accordion-content-bg);
+  }
+
+  .accordion-icon, .play-btn {
+    font-size: 12px;
+    height: 100%;
+    width: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: var(--accordion-header-bg);
+    border-left: 1px solid var(--options-border);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: var(--text-color);
+  }
+
+  
+  .accordion-icon {
+    right: 0rem;
+  }
+
+  .play-btn {
+    right: 0.2rem;
+    border-radius: 50%;
+    top: 0;
+  }
+
+  .accordion-icon:hover, .play-btn:hover {
+    background-color: var(--options-hover);
+  }
+
+  .accordion-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .accordion-content::-webkit-scrollbar-track {
+    background: var(--grey-section-bg);
+  }
+
+  .accordion-content::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 3px;
+  }
+
+  .accordion-content::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-dark);
+  }
+
+  .tooltip {
+    display: none;
+    position: absolute;
+    top: -2.5rem;
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    height: 1rem;
+    overflow: hidden;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    z-index: 4;
+  }
+
+  .tooltip.show {
+    display: block;
+  }
+
+  .tabs {
+    margin: 1rem;
+    display: flex;
+    border-radius: 30px;
+    background-color: var(--tab-bg);
+  }
+
+  .tab {
+    flex: 1;
+    padding: 10px 4px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--tab-text);
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .tab.active {
+    background-color: var(--tab-active-bg);
+    border-radius: 6px;
+    color: var(--tab-active-text);
+  }
+
+  .tab:hover {
+    background-color: var(--options-hover);
+  }
+
+  .history-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem;
+  }
+
+  .save-tabs-button {
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--button-text);
+    background-color: var(--button-bg);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .save-tabs-button:hover {
+    background-color: var(--button-hover);
+  }
+
+  .save-tabs-button:active {
+    background-color: var(--button-active);
+  }
+  .tab-text {
+    color: var(--text-color);
+  }
+  .date-label {
+  font-size: 0.8rem;
+  color: var(--button-text);
+  margin-left: 1rem;
+  opacity: 0.7;
+  background-color: rgba(255,255,255, 0.3);
+  padding: 2px 6px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 4px;
+  }
+ 
+
+  .tabs-container {
+    margin-bottom: 1rem;
+  }
+
+  .close-modal-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .accordion-header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .popper {
+    top: 0rem!important;
+    height: fit-content!important;
+    padding: 0.2rem 0.5rem!important;
+    border-radius: 8px!important;
+    width: fit-content!important;
+    color: black!important;
+    background-color: rgba(255,255,255,1)!important;
+    right: 1rem!important;
+  }
